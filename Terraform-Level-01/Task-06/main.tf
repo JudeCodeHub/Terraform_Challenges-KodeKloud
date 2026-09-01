@@ -1,0 +1,6 @@
+resource "aws_eip" "datacenter-eip" {
+
+  tags = {
+    Name = "datacenter-eip"
+  }
+}
